@@ -1,0 +1,217 @@
+/* line 1, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 0.75em;
+  background: #fbfbeb; }
+
+/* line 7, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+/* line 10, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+audio, canvas, video {
+  display: inline-block; }
+
+/* line 13, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+audio:not([controls]) {
+  height: 0; }
+
+/* line 16, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+html {
+  font-family: "Merriweather", Georgia, serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 22, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+a:focus {
+  outline: thin dotted; }
+/* line 24, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 27, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 30, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+b, strong {
+  font-weight: bold; }
+
+/* line 33, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+dfn {
+  font-style: italic; }
+
+/* line 36, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+mark {
+  background: yellow;
+  color: black; }
+
+/* line 40, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 0.875em; }
+
+/* line 44, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+pre {
+  white-space: pre-wrap; }
+
+/* line 47, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/* line 50, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 56, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em; }
+
+/* line 63, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+sub {
+  bottom: -0.25em; }
+
+/* line 66, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+img {
+  border: 0; }
+
+/* line 69, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+p, ul, ol {
+  font-size: 1.25em;
+  line-height: 1.875em;
+  margin: 5px 0;
+  color: #3d3938; }
+
+/* line 75, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+ul, ol {
+  margin: 5px 0 5px 20px; }
+
+/* line 78, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+h1, h2, h3 {
+  font-family: "Lato", Georgia, serif;
+  color: #fbfbeb;
+  margin: 0; }
+
+/* line 83, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+h2 {
+  padding: 15px 0; }
+
+/* line 86, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+h1 {
+  font-size: 3em; }
+  /* line 88, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  h1 a {
+    color: #fbfbeb;
+    text-decoration: underline; }
+
+/* line 92, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+h2 {
+  font-size: 2em;
+  color: #ab3822; }
+
+/* line 96, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+h3 {
+  font-size: 1.5em; }
+
+/* line 99, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+a {
+  color: #1560b0;
+  text-decoration: none; }
+  /* line 102, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  a:hover {
+    text-decoration: underline; }
+
+/* line 105, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+blockquote {
+  margin: 0 20px;
+  font-style: italic;
+  font-size: 0.875em; }
+
+/* line 110, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+li {
+  margin-bottom: 10px; }
+
+/* line 113, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+.content {
+  padding: 30px 20px; }
+  /* line 115, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  .content p {
+    padding: 10px 0; }
+  /* line 117, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  .content ol {
+    padding: 5px 20px; }
+
+/* line 120, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+ul {
+  padding: 5px 20px; }
+
+/* line 123, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+footer {
+  text-align: center;
+  padding: 10px 0 0 0; }
+
+/* line 127, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+.title-background {
+  width: 100%;
+  padding: 40px 0;
+  background: #ab3822;
+  color: #fbfbeb; }
+
+/* line 133, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+.post-list {
+  list-style: none;
+  padding: 0;
+  text-align: center; }
+
+/* line 138, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+.post-date {
+  font-weight: bold; }
+
+/* line 141, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+.title {
+  text-align: center; }
+
+/* line 144, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+.git {
+  font-size: 0.75em; }
+
+@media all and (min-width: 600px) {
+  /* line 148, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  body {
+    font-size: 1em; }
+
+  /* line 151, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  blockquote {
+    margin: 0 40px; }
+
+  /* line 154, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  ul, ol {
+    margin: 5px 0 5px 40px; } }
+@media all and (min-width: 768px) {
+  /* line 158, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  body {
+    font-size: 1em; }
+
+  /* line 161, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  blockquote {
+    margin: 0 40px; }
+
+  /* line 164, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  ul, ol {
+    margin: 5px 0 5px 40px; }
+
+  /* line 167, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  .title, .content {
+    width: 670px; }
+
+  /* line 170, /Users/dankim/dropbox/web/github/lateplate.github.com/pre/sass/starterleague-styles.sass */
+  .title-background, .title, .content {
+    margin: 0 auto; } }
